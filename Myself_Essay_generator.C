@@ -33,8 +33,8 @@ printf("to make a positive difference in the\n");
 printf("world. I believe everyone can contribute\n"); 
 printf("to making the world a better place, and\n"); 
 printf("I hope to do my part.\n");
-char task;
+int task;
 printf("\n\n\nPress Enter to Exit");
-scanf("%s",task);
+scanf("%d",&task);
 return 0;
 }
